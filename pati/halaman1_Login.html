@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        /* Menetapkan gaya umum untuk tubuh halaman */
+        body {
+            background-color: lightblue;
+            color: #000080;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        /* Gaya untuk kotak form login */
+        .login-box {
+            background-color: #f9e076;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+
+        /* Gaya untuk label dan input form */
+        label {
+            color: #2f4f4f;
+            display: block;
+            margin-bottom: 8px;
+            text-align: left;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin: 8px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            background-color: white;
+            color: green;
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #5a9bd5;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-box">
+        <h1 style="color: #4682b4;">Halaman Login</h1>
+        <form action="halaman_berhasil_login.html" method="get">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br>
+
+          
+    <button type="submit" onclick="location.href='halaman2_hasil.html';">Login</button>
+
+
+        </form>
+    </div>
+</body>
+</html>
